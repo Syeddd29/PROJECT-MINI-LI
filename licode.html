@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="licss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#home" class="logo">Port<span>folio</span></a>
+        
+        <!-- Mobile Menu Hamburger Icon -->
+        <div class="menu-toggle" id="mobile-menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div> 
+
+        <!-- Group Nav Links and Theme Button to slide them together -->
+        <div class="nav-menu-group" id="nav-menu-group">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-btn active">Home</a></li>
+                    <li><a href="#about" class="nav-btn">About Me</a></li>
+                    <li><a href="#education" class="nav-btn">Education</a></li>
+                    <li><a href="#skills" class="nav-btn">Skills</a></li>
+                    <li><a href="#certificates" class="nav-btn">Certificate</a></li>
+                    <li><a href="#projects" class="nav-btn">Projects</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+                <i class="fa-solid fa-moon" id="theme-icon"></i>
+            </button>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Syed Amar Danish</h1>
+            <h3>And I'm a <span class="text-animate">Computer Science Student</span></h3>
+            <p>I build interactive, responsive, and modern web applications with sleek user interfaces and optimized backend systems.</p>
+            
+            <div class="social-icons">
+                <a href="https://github.com/Syeddd29" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/syed-amar-danish-undefined-9b1731397/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/syd_4mr/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+        
+        <div class="hero-img">
+            <div class="img-box">
+                <img src="image/gambar passport.png" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <h2 class="section-title">About <span>Me</span></h2>
+
+        <div class="about-container">
+            <div class="about-img">
+                <!-- Replace with an image or use the same profile picture -->
+                <img src="image/photo1.jpg" alt="About Me Image">
+            </div>
+
+            <div class="about-content">
+                <h3>Syed Amar Danish bin Syed Shah Rizal</h3>
+                <p>
+                    I am 20 years old. I lived at Sungai Buloh, Selangor. 
+                </p>
+                <p>
+                    I am a passionate Computer Science student focused on algorithmic problem-solving, system architecture, and database design. I enjoy breaking down complex logical challenges into efficient, optimized, and reliable systems. My journey involves designing robust data models, writing clean code, and continuously learning new paradigms to build better software.
+                </p>
+
+                <!-- Personal Highlights / Quick Stats -->
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <h4>2+</h4>
+                        <p>Years Learning</p>
+                    </div>
+                    <div class="stat-box">
+                        <h4>3</h4>
+                        <p>Projects Built</p>
+                    </div>
+                    <div class="stat-box">
+                        <h4>2</h4>
+                        <p>Certificates</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education-section">
+        <h2 class="section-title">My <span>Education</span></h2>
+
+        <div class="education-container">
+
+            <a href="https://www.utem.edu.my/en/" target="_blank" rel="noopener noreferrer" class="education-card-link">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fa-solid fa-university"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="card-header-flex">
+                            <span class="education-date">2024 - 2027</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square external-link-icon"></i>
+                        </div>
+                        <h3>Diploma in Computer Science</h3>
+                        <p class="institution">Universiti Teknikal Malaysia Melaka</p>
+                        <p class="description">Studied core fundamentals of computer systems, networking basics, object-oriented programming, and web technology.</p>
+                        <p class="archivement">Archivement:  CGPA 3.45</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.sdar.edu.my/" target="_blank" rel="noopener noreferrer" class="education-card-link">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fa-solid fa-school"></i>
+                    </div>
+                    <div class="education-content">
+                        <div class="card-header-flex">
+                            <span class="education-date">2019 - 2023</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square external-link-icon"></i>
+                        </div>
+                        <h3>Secondary School Education (SPM)</h3>
+                        <p class="institution">Sekolah Dato Abdul Razak</p>
+                        <p class="description">Completed secondary education with a focus on Pure Sciences.</p>
+                        <p class="archivement">Archivement:  7A 2B</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fa-brands fa-html5 skill-icon"></i>
+                <h3>HTML & CSS</h3>
+                <p>Responsive design, Flexbox, Grid, CSS animations, and semantic markup.</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-js skill-icon"></i>
+                <h3>JavaScript</h3>
+                <p>DOM manipulation, APIs, and modern frameworks.</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-c skill-icon"></i>
+                <h3>C++</h3>
+                <p>Object oriented programming, system software .</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-solid fa-database skill-icon"></i>
+                <h3>Databases</h3>
+                <p>MySQL data modeling and querying.</p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fa-brands fa-git-alt skill-icon"></i>
+                <h3>Git & GitHub</h3>
+                <p>Version control, team collaboration and code reviews.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates-section">
+        <h2 class="section-title">My <span>Certificates</span></h2>
+
+        <div class="certificates-container">
+            <!-- Certificate 1: C# Microsoft -->
+            <div class="certificate-card">
+                <div class="certificate-img">
+                    <img src="image/centificatecsharp.png" alt="Foundational C# with Microsoft Certificate">
+                </div>
+                <div class="certificate-info">
+                    <h3>Foundational C# with Microsoft</h3>
+                    <p class="issuer">Issued by Microsoft</p>
+                    <p class="date">Issued: June 2026</p>
+                    <!-- Popup Button -->
+                    <button class="cert-btn open-cert-btn" data-cert="image/centificatecsharp.png" data-title="Foundational C# with Microsoft">
+                        <i class="fa-solid "></i> View Certificate
+                    </button>
+                </div>
+            </div>
+
+            <!-- Certificate 2: AWS Certified -->
+            <div class="certificate-card">
+                <div class="certificate-img">
+                    <img src="image/centificatemathlab.png" alt="Foundational C# with Microsoft Certificate">
+                </div>
+                <div class="certificate-info">
+                    <h3>Introduction of Symbolic Math</h3>
+                    <p class="issuer">Issued by Mathlab</p>
+                    <p class="date">Issued: June 2025</p>
+                    <!-- Popup Button -->
+                    <button class="cert-btn open-cert-btn" data-cert="image/centificatemathlab.png" data-title="Foundational C# with Microsoft">
+                        <i class="fa-solid "></i> View Certificate
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Certificate Popup Modal -->
+        <div id="cert-modal" class="cert-modal">
+            <div class="cert-modal-content">
+                <span class="cert-modal-close">&times;</span>
+                <h3 id="modal-title">Certificate View</h3>
+                <div class="modal-img-container">
+                    <img id="modal-img" src="" alt="Certificate Preview">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="image/bluehorizon.jpeg" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>BlueHorizon Cruise Booking Website</h3>
+                    <p>An website for booking BlueHorizon Cruise .</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="image/sulam.jpeg" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>SULAM Programme</h3>
+                    <p>Teach form 1-3 student about basic of algebra and mathematic.</p>
+                    <div class="project-tags">
+                        <span>Calculus</span>
+                        <span>Algegra</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <img src="image/Gogreen.png" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>UTeM GoGreen</h3>
+                    <p>A website for recycling programme in university and awareness to student about benefit of recycling.</p>
+                    <div class="project-tags">
+                        <span>php</span>
+                        <span>HTML</span>
+                        <span>MySQL</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Syed Amar Danish. All Rights Reserved.</p>
+    </footer>
+    <script src="lijava.js"></script>
+
+</body>
+</html>
